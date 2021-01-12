@@ -11,6 +11,7 @@ $ sed "s/' /'/g" fileName
 
 I used grep to narrow down gps coordinates close to the heart of the action. 
 The commands used were: 
+
 $ grep "77°0" ./gpsMetadata.txt | grep "38°53'[10-40]" > ./gpsMetadataOnlyCapitol.txt
 
 and
